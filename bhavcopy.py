@@ -54,7 +54,3 @@ else:
             st.write("---")
     st.header(selected_analysis)
     analysis_dict[selected_analysis]()
-
-#Run these 2 commands in 2 terminals
-#streamlit run main.py & 
-#npx localtunnel --port 8501
